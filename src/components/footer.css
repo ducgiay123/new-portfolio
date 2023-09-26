@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #0a080c;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+.footerLeft svg {
+  cursor: pointer;
+}
+.github {
+  display: flex;
+  color: white;
+  padding: 8px;
+}
+.github p {
+  margin-left: 10px;
+}
+
+.gmail {
+  display: flex;
+  color: white;
+  padding: 8px;
+}
+.gmail p {
+  margin-left: 10px;
+}
+.phone {
+  display: flex;
+  color: white;
+  padding: 8px;
+}
+.phone p {
+  margin-left: 10px;
+}
+.footerRight {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 24px;
+}
+
+.footerRight p {
+  font-size: 12px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 689px) {
+  .footerContainter {
+    grid-template-columns: 1fr;
+  }
+  .footerRight {
+    justify-content: flex-start;
+  }
+}

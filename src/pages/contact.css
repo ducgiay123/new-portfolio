@@ -1,0 +1,58 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+
+  /* width: 100%; */
+}
+.lineContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid;
+  border-top-color: rgb(10, 10, 13);
+  border-top-color: radial-gradient(
+    circle,
+    rgba(10, 10, 13, 1) 0%,
+    rgba(67, 71, 84, 1) 100%
+  );
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+  font-family: "Assistant", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Rowdies", cursive;
+}
+.leftContactContainer {
+  width: 40%;
+  color: #1f374d;
+  /* color: #f7ffe9; */
+}
+.rightContactContainer {
+  width: 50%;
+  min-width: 300px;
+  max-width: 600px;
+}
+.rightContactContainer span {
+  font-size: 15px;
+  font-family: "Assistant", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Rowdies", cursive;
+  color: #1f374d;
+  /* color: #f7ffe9; */
+}
+.rightContactContainer svg {
+  font-size: 20px;
+  color: #1f374d;
+}
+@media screen and (max-width: 850px) {
+  .lineContainer {
+    flex-direction: column;
+  }
+  .rightContactContainer {
+    width: 100%;
+  }
+  .leftContactContainer {
+    width: 100%;
+  }
+}

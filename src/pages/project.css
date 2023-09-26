@@ -1,0 +1,14 @@
+.projectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.projectContainer h2 {
+  font-family: "Handjet", cursive;
+  font-family: "Rowdies", cursive;
+  padding: 50px;
+  font-size: 3rem;
+  color: #1f374d;
+}

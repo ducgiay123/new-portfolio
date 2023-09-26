@@ -1,0 +1,88 @@
+.projectCard {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 10px;
+}
+.card {
+  position: relative;
+  font-family: "Assistant", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Rowdies", cursive;
+  opacity: 0.8;
+  height: 586px;
+  border-radius: 8px;
+  border: 1px solid #f7ffe9;
+  overflow: hidden;
+}
+
+.card .cardImg {
+  height: 100%;
+  /* width: 100%; */
+  width: 400px;
+
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s;
+  transform-origin: center center;
+  cursor: pointer;
+}
+.card:hover .hiddenCard {
+  visibility: visible;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card:hover .cardImg {
+  filter: blur(4px);
+  transform: scale(1.1);
+}
+.hiddenCard {
+  visibility: hidden;
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: white;
+}
+.hiddenCard h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hiddenCard h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
