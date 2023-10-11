@@ -20,7 +20,7 @@ const Home = () => {
             loop: true,
           }}
         />
-        <h1 className="flipInY">Embedded System Developer</h1>
+        <h1 className="flipInY">Full-Stack developer</h1>
         <Button
           className="transparentButton"
           variant="contained"
