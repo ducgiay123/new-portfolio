@@ -6,9 +6,28 @@
 .slick-slide > div {
   margin: 0 10px;
 }
+.slick-arrow.slick-next {
+  background-color: #f7ffe9;
+  right: -20px;
+  content: " ";
+}
+.slick-arrow.slick-next::before {
+  color: #1f374d;
+  font-size: 40px;
+}
+.slick-arrow.slick-prev {
+  background-color: #f7ffe9;
+  font-size: 30px;
+  left: -40px;
+}
+.slick-arrow.slick-prev::before {
+  color: #1f374d;
+  font-size: 40px;
+}
 .slick-list {
   margin: 0 10px;
 }
+
 .card {
   position: relative;
   font-family: "Assistant", sans-serif;
@@ -63,7 +82,7 @@
 }
 
 .card:hover .cardImg {
-  filter: blur(4px);
+  filter: blur(4px) brightness(70%);
   transform: scale(1.1);
 }
 .hiddenCard {
@@ -74,15 +93,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  color: white;
+  color: #f7ffe9;
 }
 .hiddenCard h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
+  margin: 10px;
 }
 .hiddenCard h4 {
+  margin: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hiddenCard h5 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
 }
