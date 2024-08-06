@@ -87,8 +87,7 @@
     font-size: 55px;
   }
 }
-.menu {
-}
+
 .menu.hidden {
   visibility: hidden;
 }

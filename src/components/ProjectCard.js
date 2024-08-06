@@ -49,26 +49,6 @@ const ProjectCard = () => {
             </div>
           ) : null
         )}
-        {cardData.map((item, index) =>
-          item.webLink !== "" ? (
-            <div
-              className="card"
-              key={index}
-              onClick={() => {
-                handleClick(item.webLink);
-              }}
-            >
-              <img className="cardImg" src={item.imgLink} alt="" />
-              <div className="hiddenCard">
-                <h4>{item.workType}</h4>
-                <h1>{item.name}</h1>
-                <h4>{item.performType}</h4>
-              </div>
-            </div>
-          ) : (
-            <div />
-          )
-        )}
       </Slider>
     </div>
   );
