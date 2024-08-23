@@ -24,7 +24,7 @@
 }
 .leftContactContainer {
   width: 40%;
-  color: #1f374d;
+  color: var(--light-title--color);
   /* color: #f7ffe9; */
 }
 .rightContactContainer {
@@ -38,12 +38,12 @@
   font-family: "Handjet", cursive;
   font-family: "Oxygen", sans-serif;
   font-family: "Rowdies", cursive;
-  color: #1f374d;
+  color: var(--light-title--color);
   /* color: #f7ffe9; */
 }
 .rightContactContainer svg {
   font-size: 20px;
-  color: #1f374d;
+  color: var(--light-title--color);
 }
 @media screen and (max-width: 850px) {
   .lineContainer {

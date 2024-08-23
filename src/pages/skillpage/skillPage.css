@@ -1,17 +1,19 @@
 .skillPageContainer {
-  background-color: var(--dark--background--color);
+  /* background-color: var(--dark--background--color); */
   /* margin: 4rem 0; */
   padding: 70px 5% 70px 5%;
   position: relative;
 }
 .skillPageContainer h2 {
-  color: var(--dark--text--color);
-  font-size: 1.5rem;
+  color: var(--light-title--color);
+  font-size: 3rem;
   font-weight: 600;
   font-family: "Handjet", cursive;
   font-family: "Rowdies", cursive;
   font-weight: inherit;
   margin-bottom: 3.5rem;
+  text-align: center;
+  padding: 50px;
 }
 .skillsContent {
   display: flex;

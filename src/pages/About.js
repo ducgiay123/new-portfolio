@@ -29,8 +29,8 @@ const About = () => {
       <img src={Ava} alt="" className="ava" />
       <div className="content">
         <div className="aboutContainerRight">
-          <h1 class="aboutTitle">Duc Trung (Adam)</h1>
-          <h2 class="aboutTitle">
+          <h1 className="aboutTitle">Duc Trung (Adam)</h1>
+          <h2 className="aboutTitle">
             Software Developer & Embedded System Developer
           </h2>
           {/* <h2 class="aboutTitle">r</h2> */}
@@ -89,8 +89,6 @@ const About = () => {
                 smooth={true}
                 offset={0}
                 duration={2500}
-                Hire
-                Me
               >
                 Hire Me
               </ScrollLink>

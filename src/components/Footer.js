@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -14,6 +14,14 @@ const Footer = () => {
   const handleClick = (link) => {
     window.open(link, "_blank");
   };
+  const [currentDate, setCurrentDate] = useState("");
+
+  useEffect(() => {
+    const date = new Date();
+    // Format the date as needed (e.g., "MM/DD/YYYY")
+    const formattedDate = date.toLocaleDateString();
+    setCurrentDate(formattedDate);
+  }, []);
   return (
     <div className="footer">
       <div className="footerLeft">
@@ -41,7 +49,7 @@ const Footer = () => {
       </div>
       <div className="footerRight">
         <p align="right">
-          Coppyright © 12/18/2024 Duc Trung Works, Inc - All Rights Reserved
+          Coppyright © {currentDate} Duc Trung Works, Inc - All Rights Reserved
         </p>
       </div>
     </div>

@@ -64,7 +64,7 @@ const Nav = (props) => {
               to="project"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={0}
               duration={1500}
             >
               Project
