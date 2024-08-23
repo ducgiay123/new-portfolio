@@ -50,6 +50,17 @@ const Nav = (props) => {
           </li>
           <li>
             <ScrollLink
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-300}
+              duration={700}
+            >
+              Skills
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
               to="project"
               spy={true}
               smooth={true}

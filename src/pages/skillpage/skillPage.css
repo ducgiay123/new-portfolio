@@ -1,0 +1,37 @@
+.skillPageContainer {
+  background-color: var(--dark--background--color);
+  /* margin: 4rem 0; */
+  padding: 70px 5% 70px 5%;
+  position: relative;
+}
+.skillPageContainer h2 {
+  color: var(--dark--text--color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Handjet", cursive;
+  font-family: "Rowdies", cursive;
+  font-weight: inherit;
+  margin-bottom: 3.5rem;
+}
+.skillsContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.skills {
+  width: 48%;
+  display: flex;
+  height: 70%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.skillsInfo {
+  width: 48%;
+}
+@media (max-width: 1505px) {
+  .skills {
+    gap: 1.5rem;
+  }
+}

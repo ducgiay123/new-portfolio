@@ -1,4 +1,10 @@
 .App {
-  /* background-color: #060918; */
-  background-color: #f7ffe9;
+  background-color: var(--light-background--color);
+}
+:root {
+  --dark--background--color: #0d1321;
+  --light-background--color: #f0ebd8;
+  --light-text--color: #3e5c76;
+  --light-title--color: #1d2d44;
+  --dark--text--color: #f0ebd8;
 }

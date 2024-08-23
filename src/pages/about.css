@@ -4,12 +4,13 @@
   background-color: #f7ffe9;
   /* background-color: #060918; */
   flex-direction: row;
+  padding-bottom: 80px;
 }
 .ava {
   object-fit: cover;
   object-position: center;
   width: 50%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 00px);
 }
 .content {
   padding: 0px 5% 10px 5%;
@@ -18,23 +19,24 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  color: #1f374d;
+  color: var(--light-text--color);
   /* color: #f7ffe9; */
 }
 .aboutTitle {
   font-family: "Handjet", cursive;
   font-family: "Rowdies", cursive;
   font-weight: inherit;
-  color: #1f374d;
+  color: var(--light-title--color);
 }
 .aboutContainerRight {
-  max-width: 640px;
+  /* max-width: 640px; */
 }
 .selfIntroduction {
   font-family: "Assistant", sans-serif;
   font-family: "Handjet", cursive;
   font-family: "Oxygen", sans-serif;
   font-family: "Rowdies", cursive;
+  text-align: justify;
 }
 .aboutContainerRight .selfIntroduction h4 {
   font-weight: 400;
@@ -58,6 +60,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10% 0px 10%;
+}
+
+.gridItem {
+  transition: transform 0.3s ease !important;
+
+  /* font-family: "Assistant", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Oxygen", sans-serif;
+  transition: transform 0.3s ease !important; 
+  font-family: "Rowdies", cursive; */
+}
+.gridItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.4),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.4), 0px 1px 10px 0px rgba(0, 0, 0, 0.4) !important;
+}
+.iconContainer {
+  margin: 0px 4% 0px 4%;
+  height: 40px;
+}
+.iconItem {
+  margin-right: 20px;
+  color: var(--light-title--color);
+  background-color: transparent;
+  transition: transform 0.3s ease !important; /* Enable transition for smooth effect */
+  cursor: pointer;
+}
+
+.iconItem:hover {
+  transform: scale(1.2); /* Scale down to 80% size on hover */
+}
+@media screen and (max-width: 1400px) {
+  .aboutContainerRight h1 {
+    font-size: 30px;
+  }
+  .aboutContainerRight h2 {
+    font-size: 20px;
+  }
+  .aboutContainerRight h4 {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 660px) {

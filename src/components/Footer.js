@@ -28,20 +28,20 @@ const Footer = () => {
           <LinkedInIcon
             style={{ color: "white" }}
             fontSize="medium"
-            onClick={() => handleClick(fb)}
+            onClick={() => handleClick(linkedin)}
           />
         </div>
         <div className="gmail">
           <FacebookIcon
             fontSize="medium"
             style={{ color: "white" }}
-            onClick={() => handleClick(linkedin)}
+            onClick={() => handleClick(fb)}
           />
         </div>
       </div>
       <div className="footerRight">
         <p align="right">
-          Coppyright © 12/18/2022 Duc Trung Works, Inc - All Rights Reserved
+          Coppyright © 12/18/2024 Duc Trung Works, Inc - All Rights Reserved
         </p>
       </div>
     </div>
