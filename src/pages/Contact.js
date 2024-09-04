@@ -81,7 +81,7 @@ const Contact = () => {
                   alignItems: "center",
                 }}
               >
-                Go Go Go&nbsp;
+                Chat wih me!&nbsp;
                 <RocketLaunchIcon />
               </Button>
             </Form.Item>
