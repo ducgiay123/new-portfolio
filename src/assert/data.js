@@ -42,6 +42,16 @@ const cardData = [
       "Ecommerce website design and development using React, ASP.NET, and PostgreSQL. The site includes categories, booking, and order functionalities",
   },
   {
+    workType: "Window form Application",
+    name: "LinkedConntionCheck",
+    webLink: "https://tingtingshop.netlify.app/",
+    performType: "winform",
+    day: "",
+    imgLink: require("./image/checkDieLinkedin.png"),
+    debcriptions:
+      "Provide the email associated with the application to determine if it is linked to a LinkedIn profile. Additionally, verify the status of the LinkedIn account to ensure it is still active.",
+  },
+  {
     workType: "Embedded System",
     name: "LCD 16x2 Game",
     webLink: currentURL + "embedgame",
